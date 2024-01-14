@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" integrity="sha384-PJsj/BTMqILvmcej7ulplguok8ag4xFTPryRq8xevL7eBYSmpXKcbNVuy+P0RMgq" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="bg-body-tertiary bg-opacity shadow sticky-top" style="--bs--bg--opacity: 0.95">
+    <nav class="navbar navbar-expand-lg container">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-4" href="#">Web Developer</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home" >Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Link
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link"href="#about">About</a>
+              </li>
+            </ul>
+            <div class="d-flex justify-content-md-end" style="width: 185px;">
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Get started  
+                  </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      
+</div>
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" id="exampleModalLabel">Get Start Now</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+    <div class="modal-body">
+       <div>
+        <form action="" class="p-2 ps-3 pe-3">
+            <div class="mb-2">
+                <label for="contactEmail" class="form-label"> Enter your Email for newletter</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <button class="btn btn-success mt-2">subscribe</button>
+        </form>
+    </div>
+</div>
+</div>
+</div>
+</div>
+<!-- back to top -->
+<a href="#" class="bg-body-tertiary text-dark d-flex rounded-circle justify-content-center align-item-center position-fixed opacity-75" style="width: 54px; height: 54px; right: 60px; bottom: 20px;"><i class="bi bi-arrow-up fs-1"></i></a>
+
+<section class="mt-5" id="home">
+    <div class="container mt-2">
+<div class="row align-items-center p-4">
+    <div class="col-md-6">
+    <h2 class="display-4 mb-4">Build <span class="text-success">reactive</span> Web site easily</h2>
+    <p class="lead text-muted mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur odit eveniet ea voluptatem quasexercitationem optio quibusdam nostrum?</p>
+    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Get started  
+      </button>
+    </div>
+    <div class="col-md-6">
+        <img src="images/programer.jpg" alt="" class="img-fluid">
+    </div>
+    </div>
+</div>
+    </div>
+</section>
+<section class="bg-me">
+    <div class="container p-4">
+        <div class="row">
+            <div class="col"><h2 class="display-5 mat-5 text-center">feattures</h2>
+            <p class="lead text-muted mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.inventore non cumque cupiditate laudantium harum velit. Voluptatibus.</p></div>
+        </div>
+        <div class="row g-4 pb-5">
+            <div class="col-xl-4 col-sm-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <i class="bi bi-laptop fs-1"></i>
+                      <h5 class="card-title mb-3 mt-4">Special title treatment</h5>
+                      <p class="card-text lead text-muted">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-xl-4 col-sm-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <i class="bi bi-reception-4 fs-1"></i>
+                      <h5 class="card-title mb-3 mt-4">Special title treatment</h5>
+                      <p class="card-text lead text-muted">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-xl-4 col-sm-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <i class="bi bi-laptop fs-1"></i>
+                      <h5 class="card-title mb-3 mt-4">Special title treatment</h5>
+                      <p class="card-text lead text-muted">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-xl-4 col-sm-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <i class="bi bi-server fs-1"></i>
+                      <h5 class="card-title mb-3 mt-4">Special title treatment</h5>
+                      <p class="card-text lead text-muted">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-xl-4 col-sm-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <i class="bi bi-download fs-1"></i>
+                      <h5 class="card-title mb-3 mt-4">Special title treatment</h5>
+                      <p class="card-text lead text-muted">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-xl-4 col-sm-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <i class="bi bi-laptop fs-1"></i>
+                      <h5 class="card-title mb-3 mt-4">Special title treatment</h5>
+                      <p class="card-text lead text-muted">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="mt-5 bg-me">
+    <div class="container">
+        <div class="row align-items-center p-4" style="height: 550px;">
+            <div class="col-md-6">
+            <h2 class="display-5 mb-4">Be <span class="text-success">Fast</span> and <span class="text-success">Reactive</span></h2>
+            <p class="lead text-muted mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur odit eveniet ea voluptatem.</p>
+            <button class="btn btn-success" style="width: 185px;"><i class="bi bi-chevron-right"></i>Read more</button>
+            </div>
+            <div class="col-md-6">
+                <img src="images/Website designer-bro.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-dark">
+    <div class="container">
+    <div class="row align-items-center p-5 g-5" style="height: 550px;">
+        <div class="col-md-6">
+            <img src="images/website creator.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+        <h2 class="display-5 mb-4 text-white">suitable for <span class="text-success">big project</h2>
+        <p class="lead text-white mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur odit eveniet ea voluptatem.</p>
+        <button class="btn btn-success" style="width: 185px;"><i class="bi bi-chevron-right"></i>Read more</button>
+        </div>
+    </div>
+</div></section>
+<section>
+    <!-- posts -->
+<div class="container py-4">
+    <div class="row">
+        <div class="col"><h2 class="display-5 mat-5 text-center">recent posts from our blog</h2>
+       <p class="lead text-muted mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.inventore non cumque cupiditate laudantium harum velit. Voluptatibus.</p></div>  
+    </div>
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card mb-3 shadow">
+                <img src="images/cod1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Card title</h5>
+                  <p class="card-text"><small class="text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</small></p>
+                  <a href="#" class="card-text fs-6"><i class="bi bi-arrow-right">read more</i></a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-3 shadow">
+                <img src="images/cod2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Card title</h5>
+                  <p class="card-text"><small class="text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</small></p>
+                  <a href="#" class="card-text fs-6"><i class="bi bi-arrow-right">read more</i></a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-3 shadow">
+                <img src="images/cod3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Card title</h5>
+                  <p class="card-text"><small class="text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</small></p>
+                  <a href="#" class="card-text fs-6"><i class="bi bi-arrow-right">read more</i></a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col"><h2 class="display-5 mt-5 text-center" id="about">our team</h2>
+                <p class="lead text-muted mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.inventore non cumque cupiditate laudantium harum velit. Voluptatibus.</p></div>  
+        </div>
+        <div class="row text-center">
+            <div class="col-md-3">
+                <img src="images/1.png" alt="" class="img-fluid rounded-circle border p-2 w-75">
+                <h5 class="mt-4">NASIM KA</h5>
+                <p>founder</p>
+                <ul class="list-unstyled d-flex justify-content-center">
+                    <li class="m-1">
+                        <a href="#" class="text-muted"><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li class="m-1">
+                        <a href="#" class="text-muted"><i class="bi bi-telegram"></i></a>
+                    </li>
+                    <li class="m-1">
+                        <a href="#" class="text-muted"><i class="bi bi-instagram"></i></a>
+                    </li>
+                    <li class="m-1">
+                        <a href="#" class="text-muted"><i class="bi bi-facebook"></i></a>
+                    </li>
+                </ul>
+                
+            </div>
+            <div class="col-md-3">
+                <img src="images/2.jpg" alt="" class="img-fluid rounded-circle border p-2 w-75">
+                <h5 class="mt-4">NASIM KA</h5>
+                <p>developer</p>
+                <ul class="list-unstyled d-flex justify-content-center">
+                    <li class="m-1">
+                        <a href="#" class="text-muted"><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li class="m-1">
+                        <a href="#" class="text-muted"><i class="bi bi-telegram"></i></a>
+                    </li>
+                    <li class="m-1">
+                        <a href="#" class="text-muted"><i class="bi bi-instagram"></i></a>
+                    </li>
+                    <li class="m-1">
+                        <a href="#" class="text-muted"><i class="bi bi-facebook"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <img src="images/3.jpg" alt="" class="img-fluid rounded-circle border p-2 w-75">
+                <h5 class="mt-4">NASIM KA</h5>
+                <p>designer</p>
+                <ul class="list-unstyled d-flex justify-content-center">
+                    <li class="m-1">
+                        <a href="#" class="text-muted"><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li class="m-1">
+                        <a href="#" class="text-muted"><i class="bi bi-telegram"></i></a>
+                    </li>
+                    <li class="m-1">
+                        <a href="#" class="text-muted"><i class="bi bi-instagram"></i></a>
+                    </li>
+                    <li class="m-1">
+                        <a href="#" class="text-muted"><i class="bi bi-facebook"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <img src="images/4.jpg" alt="" class="img-fluid rounded-circle border p-2 w-75">
+                <h5 class="mt-4">NASIM KA</h5>
+                <p>co-founder</p>
+                <ul class="list-unstyled d-flex justify-content-center">
+                    <li class="m-1">
+                        <a href="#" class="text-muted"><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li class="m-1">
+                        <a href="#" class="text-muted"><i class="bi bi-telegram"></i></a>
+                    </li>
+                    <li class="m-1">
+                        <a href="#" class="text-muted"><i class="bi bi-instagram"></i></a>
+                    </li>
+                    <li class="m-1">
+                        <a href="#" class="text-muted"><i class="bi bi-facebook"></i></a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<section class="bg-me py-4">
+        <div class="row text-center">
+            <div class="col"><h2 class="display-5 mat-5 text-center">feattures</h2>
+                <p class="lead text-muted mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.inventore non cumque cupiditate laudantium harum velit. Voluptatibus.</p>
+            </div>
+        </div>
+    <div class="container p-4">
+        <div class="row">
+            <div class="col">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                          Accordion Item #1
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                          Accordion Item #2
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          Accordion Item #3
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefour" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            Accordion Item #4
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapsefour" class="accordion-collapse collapse">
+                          <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col"><h2 class="display-5 mat-5 text-center" id="contact">contact</h2>
+                <p class="lead text-muted mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.inventore non cumque cupiditate laudantium harum velit. Voluptatibus.</p>
+            </div>
+        </div>
+        <div class="row p-5">
+            <div class="col-md-6">
+             <div class="row g-3 text-center">
+                <div class="col-md-6">
+                    <div class="bg-me rounded">
+                    <i class="bi bi-geo-alt fs-1"></i>
+                    <h5 class="mt-4">Address</h5> 
+                    <p class="pb-4">IRAN, MASSHAD</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="bg-me rounded">
+                        <i class="bi bi-telephone fs-1"></i>
+                    <h5 class="mt-4">Call us</h5> 
+                    <p class="pb-4">IRAN, MASSHAD</p>
+                    </div>
+                </div>
+             </div>
+             <div class="row g-3 text-center">
+                <div class="col-md-6">
+                    <div class="bg-me rounded">
+                        <i class="bi bi-geo-alt fs-1"></i>
+                    <h5 class="mt-4">Address</h5> 
+                    <p class="pb-4">IRAN, MASSHAD</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="bg-me rounded">
+                        <i class="bi bi-telephone fs-1"></i>
+                    <h5 class="mt-4">Call us</h5> 
+                    <p class="pb-4">IRAN, MASSHAD</p>
+                    </div>
+                </div>
+             </div>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <form action="" class="bg-me p-2 rounded ps-3 pe-3">
+                        <div class="mb-2">
+                            <label for="contactfullname" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="enter your name">
+                          </div>
+                        <div class="mb-2">
+                            <label for="contactEmail" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                          </div>
+                          <div class="mb-2">
+                            <label for="contactcomment" class="form-label">your comment</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                          <button class="btn btn-success mt-2">send</button>
+                    </form>
+                </div>
+             
+            </div>
+            
+        </div>
+    </div>
+</section>
+    <!-- footer -->
+    <footer class="pt-5">
+        <section class="y-4 text-white" style="background-color: #081828;">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-md-3">
+                      <h4 class="mb-4 mt-4">Web developer</h4>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro repudiandae, expedita aspernatur error qua!</p>
+                    </div>
+                    <div class="col-md-3">
+                     <h5 class="mt-4 border-start border-4 border-success ps-3">Pages</h5>
+                     <ul class="list-unstyled mt-4">
+                        <li>
+                            <a href="#" class="text-decoration-none" style="color: #ddd;">Vue.js</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-decoration-none" style="color: #ddd;">React.js</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-decoration-none" style="color: #ddd;">Our team</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-decoration-none" style="color: #ddd;">contact</a>
+                        </li>
+                     </ul> 
+                    </div>
+                    <div class="col-md-3">
+                        <h5 class="mt-4 border-start border-4 border-success ps-3">more</h5>
+                        <ul class="list-unstyled mt-4">
+                           <li>
+                               <a href="#" class="text-decoration-none" style="color: #ddd;">Vue.js</a>
+                           </li>
+                           <li>
+                               <a href="#" class="text-decoration-none" style="color: #ddd;">React.js</a>
+                           </li>
+                           <li>
+                               <a href="#" class="text-decoration-none" style="color: #ddd;">Our team</a>
+                           </li>
+                           <li>
+                               <a href="#" class="text-decoration-none" style="color: #ddd;">contact</a>
+                           </li>
+                        </ul> 
+                    </div>
+                    <div class="col-md-3">
+                        <h5 class="mt-4 border-start border-4 border-success ps-3">Posts</h5>
+                        <ul class="list-unstyled mt-4">
+                           <li>
+                               <a href="#" class="text-decoration-none" style="color: #ddd;">Vue.js</a>
+                           </li>
+                           <li>
+                               <a href="#" class="text-decoration-none" style="color: #ddd;">React.js</a>
+                           </li>
+                           <li>
+                               <a href="#" class="text-decoration-none" style="color: #ddd;">Our team</a>
+                           </li>
+                           <li>
+                               <a href="#" class="text-decoration-none" style="color: #ddd;">contact</a>
+                           </li>
+                        </ul>  
+                    </div>
+                </div>
+                <hr>
+                <div class="text-center pb-5">Disigned and developer <a href="#">NASIM.KA</a></div>
+            </div>
+        </section>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>  
+</body>
+</html>

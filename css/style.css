@@ -1,0 +1,28 @@
+.btn-success,
+.btn-success:visited,
+.btn-success:focus
+ {
+    background-color: #34885e;
+    border-color: #054402;
+}
+.btn-success:hover,
+.btn-success:active
+{
+    background-color: #34885e;
+    border-color: #148342;
+}
+.btn-success:active:focus,
+.btn-success:focus
+{
+    background-color: #196b38 !important;
+    box-shadow: 0 0 0 0.25rem rgba(46, 221, 119, 0.5);
+}
+.text-success {
+    color: #29d175 !important;
+}
+.bg-me {
+    background-color: #E1ECC8;
+}
+.border-success{
+    border-color: #07632a !important;
+}
